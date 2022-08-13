@@ -10,7 +10,8 @@ body {
   h4,
   ul,
   p,
-  blockquote {
+  blockquote,
+  dd {
       margin: 0;
   }
   
@@ -27,6 +28,7 @@ body {
   img {
       max-width: 100%;
       display: block;
+      pointer-events: none;
   }
 
   img[src$=".jpg"]  {
