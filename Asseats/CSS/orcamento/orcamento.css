@@ -156,7 +156,6 @@
         padding: 32px;
     }
 }
-
 @media (max-width: 800px) {
     .orcamento {
         grid-template-columns: 1fr;
