@@ -10,8 +10,9 @@
     />
 
     <title>Bikcraft</title>
-
-    <link rel="stylesheet" href="/Asseats/CSS/main.css" />
+    <link rel="preload" href="./Asseats/CSS/main.css" as="style">
+    <link rel="preload" href="./Asseats/CSS/main.css" as="style">
+    <link rel="stylesheet" href="./Asseats/CSS/main.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,12 +46,13 @@
           </p>
           <a class="botao" href="./bicicletas.html">Escolha a sua</a>
         </div>
-        <div>
+        <picture>
+          <source media="(max-width: 800px" srcset="./Asseats/img/bicicletas/nimbus.jpg">
           <img
             src="./Asseats/img/fotos/introducao.jpg"
             alt="Bicicleta elétrica preta"
           />
-        </div>
+        </picture>
       </div>
     </main>
 
