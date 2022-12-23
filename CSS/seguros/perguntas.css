@@ -41,7 +41,7 @@ background: var(--cor-1);
     display: inline-block;
     width: 14px;
     height: 6px;
-    background: url(../../img/icones/seta-abrir.svg);
+    background: url(../img/icones/seta-abrir.svg);
     transition: .3s;
 }
 
